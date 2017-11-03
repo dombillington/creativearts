@@ -1,0 +1,26 @@
+/* DB Styles */
+
+p {font-size:18px!important;color:#000;}
+h1 {font-size:2em!important;}
+h2 {font-size:1.8em!important;color:#00313B!important;}
+h3 {font-size:1.3em!important;}
+
+h2.featured {text-align:center;}
+.gdlr-button {background-color:#310638!important;}
+.gdlr-item.gdlr-content-item {padding: 2em;}
+
+/*Nav menu styling */
+
+.gdlr-main-menu > li:hover > a, .gdlr-main-menu > li.current-menu-item > a, .gdlr-main-menu > li.current-menu-ancestor > a {
+    color: #730D33;
+}
+.sf-menu > li > a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-right:18px;
+}
+
+.gdlr-button, input[type="button"], input[type="submit"] {
+    margin: 0!important;
+}
