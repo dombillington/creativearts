@@ -1,9 +1,94 @@
+.gdlr-box-with-icon-item {
+    background-color: #ffffff;
+}
+
+.gdlr-box-with-icon-item .box-with-icon-title {
+    font-size: 13px;
+}
+
+.gdlr-styled-box-body {
+    border-radius: 10px;
+}
+
+.gdlr-button, input[type="button"], input[type="submit"] {
+    border-color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 49px;
+    margin-left: 50px;
+}
+
+/* Hide title bar on every page */
+
+.gdlr-page-title-wrapper {
+display: none;
+}
+
+body.single-post .gdlr-blog-thumbnail{
+display:none;
+}
+.gdlr-portfolio-thumbnail.gdlr-image{
+display:none;
+}
+
+/* Increase font size for top menu */
+
+.sf-menu > li > a {
+font-size: 18px;
+}
+.sf-menu > .gdlr-normal-menu li > a {
+font-size: 18px;
+}
+
+.gdlr-social-share {
+    margin-top: 100px;
+}
+
+.gdlr-blog-grid .gdlr-blog-info {
+    display: none;
+}
+
+.gdlr-box-with-icon-item .box-with-icon-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.gdlr-box-with-icon-item {
+    padding: 40px 18px 20px;
+}
+
+/* Format subscription form */
+
+#subscribe-email input {
+    width: 98% !important;
+    margin-top: 10px ;
+    padding: 18px 9px !important;
+}
+
+/* hide blurb above post titles */
+.gdlr-blog-full .gdlr-blog-info {
+    display: none;
+}
+
+.gdlr-button, input[type="button"], input[type="submit"] {
+    margin: 0!important;
+}
+
 /* DB Styles */
 
 p {font-size:18px!important;color:#000;}
 h1 {font-size:2em!important;}
-h2 {font-size:1.8em!important;color:#00313B!important;}
+h2 {font-size:1.8em!important;color:#00313B!important;font-weight:500;}
 h3 {font-size:1.3em!important;}
+
+.gdlr-blog-title, .gdlr-blog-title a {
+    color: #00313B;
+}
+
+.footer-wrapper {
+    background-color: #730D33!important;
+    border-top-color: #00313B!important;
+}
 
 h2.featured {text-align:center;}
 .gdlr-button {background-color:#310638!important;}
@@ -39,6 +124,19 @@ h2.featured {text-align:center;}
 
 .dl-trigger.dl-active, .dl-trigger:hover {
     width: 43px !important;
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+  body .container {
+    max-width: 100%;
+  }
+  .gdlr-navigation-wrapper.gdlr-style-1 {
+    width: 100%;
+  }
+  #gdlr-nav-search-form-button {
+    float: right;
+    margin: 1em;
+  }
 }
 
 @media only screen and (max-width: 768px) {
