@@ -21,6 +21,39 @@ h2.featured {text-align:center;}
     margin-right:18px;
 }
 
+#gdlr-responsive-navigation.dl-menuwrapper button {
+    background-color: #00313B;
+}
+
+#gdlr-responsive-navigation.dl-menuwrapper button:hover, #gdlr-responsive-navigation.dl-menuwrapper button.dl-active, #gdlr-responsive-navigation.dl-menuwrapper ul {
+    background-color: #00313B;
+    width: 100%;
+    margin: 0;
+}
+
+#gdlr-responsive-navigation .dl-trigger {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+  }
+
+.dl-trigger.dl-active, .dl-trigger:hover {
+    width: 43px !important;
+}
+
+@media only screen and (max-width: 768px) {
+	body .container{ max-width: 100%!important;}
+}
+
+/*Nav menu styling END */
+
 .gdlr-button, input[type="button"], input[type="submit"] {
     margin: 0!important;
+    border-radius: 6px;
+}
+
+@media (max-width:768px) {
+	.gdlr-item.gdlr-content-item {
+    padding: 0.5em;
+}
 }
