@@ -1,157 +1,245 @@
-.gdlr-box-with-icon-item {
-    background-color: #ffffff;
-}
-
-.gdlr-box-with-icon-item .box-with-icon-title {
-    font-size: 13px;
-}
-
-.gdlr-styled-box-body {
-    border-radius: 10px;
-}
-
-.gdlr-button, input[type="button"], input[type="submit"] {
-    border-color: #ffffff;
-    border-radius: 10px;
-    font-size: 20px;
-    margin-top: 49px;
-    margin-left: 50px;
-}
-
-/* Hide title bar on every page */
-
-.gdlr-page-title-wrapper {
-display: none;
-}
-
-body.single-post .gdlr-blog-thumbnail{
-display:none;
-}
-.gdlr-portfolio-thumbnail.gdlr-image{
-display:none;
-}
-
-/* Increase font size for top menu */
-
-.sf-menu > li > a {
-font-size: 18px;
-}
-.sf-menu > .gdlr-normal-menu li > a {
-font-size: 18px;
-}
-
-.gdlr-social-share {
-    margin-top: 100px;
-}
-
-.gdlr-blog-grid .gdlr-blog-info {
-    display: none;
-}
-
-.gdlr-box-with-icon-item .box-with-icon-title {
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.gdlr-box-with-icon-item {
-    padding: 40px 18px 20px;
-}
-
-/* Format subscription form */
-
-#subscribe-email input {
-    width: 98% !important;
-    margin-top: 10px ;
-    padding: 18px 9px !important;
-}
-
-/* hide blurb above post titles */
-.gdlr-blog-full .gdlr-blog-info {
-    display: none;
-}
-
-.gdlr-button, input[type="button"], input[type="submit"] {
-    margin: 0!important;
-}
-
-/* DB Styles */
-
-p {font-size:18px!important;color:#000;}
-h1 {font-size:2em!important;}
-h2 {font-size:1.8em!important;color:#00313B!important;font-weight:500;}
-h3 {font-size:1.3em!important;}
-
-.gdlr-blog-title, .gdlr-blog-title a {
-    color: #00313B;
-}
-
-.footer-wrapper {
-    background-color: #730D33!important;
-    border-top-color: #00313B!important;
-}
-
-h2.featured {text-align:center;}
-.gdlr-button {background-color:#310638!important;}
-.gdlr-item.gdlr-content-item {padding: 2em;}
-
-/*Nav menu styling */
-
-.gdlr-main-menu > li:hover > a, .gdlr-main-menu > li.current-menu-item > a, .gdlr-main-menu > li.current-menu-ancestor > a {
-    color: #730D33;
-}
-.sf-menu > li > a {
-    font-size: 18px;
-    font-weight: 500;
-    color: #000;
-    margin-right:18px;
-}
-
-#gdlr-responsive-navigation.dl-menuwrapper button {
-    background-color: #00313B;
-}
-
-#gdlr-responsive-navigation.dl-menuwrapper button:hover, #gdlr-responsive-navigation.dl-menuwrapper button.dl-active, #gdlr-responsive-navigation.dl-menuwrapper ul {
-    background-color: #00313B;
-    width: 100%;
-    margin: 0;
-}
-
-#gdlr-responsive-navigation .dl-trigger {
-    position: absolute;
-    right: 10px;
-    top: 13px;
+  .gdlr-box-with-icon-item {
+      background-color: #ffffff;
   }
 
-.dl-trigger.dl-active, .dl-trigger:hover {
-    width: 43px !important;
-}
-
-@media only screen and (min-width:768px) and (max-width:959px) {
-  body .container {
-    max-width: 100%;
+  .gdlr-box-with-icon-item .box-with-icon-title {
+      font-size: 13px;
   }
-  .gdlr-navigation-wrapper.gdlr-style-1 {
-    width: 100%;
+
+  .gdlr-styled-box-body {
+      border-radius: 10px;
   }
-  #gdlr-nav-search-form-button {
-    float: right;
-    margin: 1em;
+
+  .gdlr-button, input[type="button"], input[type="submit"] {
+      border-color: #ffffff;
+      border-radius: 10px;
+      font-size: 20px;
+      margin-top: 49px;
+      margin-left: 50px;
   }
-}
 
-@media only screen and (max-width: 768px) {
-	body .container{ max-width: 100%!important;}
-}
+  /* Hide title bar on every page */
 
-/*Nav menu styling END */
+  .gdlr-page-title-wrapper {
+  display: none;
+  }
 
-.gdlr-button, input[type="button"], input[type="submit"] {
-    margin: 0!important;
-    border-radius: 6px;
-}
+  body.single-post .gdlr-blog-thumbnail{
+  display:none;
+  }
+  .gdlr-portfolio-thumbnail.gdlr-image{
+  display:none;
+  }
 
-@media (max-width:768px) {
-	.gdlr-item.gdlr-content-item {
-    padding: 0.5em;
-}
-}
+  /* Increase font size for top menu */
+
+  .sf-menu > li > a {
+  font-size: 18px;
+  }
+  .sf-menu > .gdlr-normal-menu li > a {
+  font-size: 18px;
+  }
+
+  .gdlr-social-share {
+      margin-top: 100px;
+  }
+
+  .gdlr-blog-grid .gdlr-blog-info {
+      display: none;
+  }
+
+  .gdlr-box-with-icon-item .box-with-icon-title {
+      font-size: 14px;
+      font-weight: bold;
+  }
+
+  .gdlr-box-with-icon-item {
+      padding: 40px 18px 20px;
+  }
+
+  /* Format subscription form */
+
+  #subscribe-email input {
+      width: 98% !important;
+      margin-top: 10px ;
+      padding: 18px 9px !important;
+  }
+
+  /* hide blurb above post titles */
+  .gdlr-blog-full .gdlr-blog-info {
+      display: none;
+  }
+
+  .gdlr-button, input[type="button"], input[type="submit"] {
+      margin: 0!important;
+  }
+
+  /* DB Styles */
+
+  p {font-size:18px!important;color:#000;}
+  h1 {font-size:2em!important;}
+  h2 {font-size:1.8em!important;color:#00313B!important;font-weight:500;}
+  h3 {font-size:1.3em!important;}
+  li {
+      color: #000;
+  }
+  .gdlr-blog-title, .gdlr-blog-title a {
+      color: #00313B;
+  }
+
+  .footer-wrapper {
+      background-color: #00313B!important;
+      border-top-color: #730D33!important;
+  }
+
+  h2.featured {text-align:center;}
+  .gdlr-button {background-color:#310638!important;}
+  .gdlr-item.gdlr-content-item {padding: 2em;}
+
+  /*Nav menu styling */
+
+  .gdlr-navigation {
+      margin-top: 3em;
+  }
+
+  .gdlr-main-menu > li:hover > a, .gdlr-main-menu > li.current-menu-item > a, .gdlr-main-menu > li.current-menu-ancestor > a {
+      color: #730D33;
+  }
+  .sf-menu > li > a {
+      font-size: 18px;
+      font-weight: 500;
+      color: #000;
+      margin-right:18px;
+  }
+
+  #gdlr-responsive-navigation.dl-menuwrapper button {
+      background-color: #00313B;
+  }
+
+  #gdlr-responsive-navigation.dl-menuwrapper button:hover, #gdlr-responsive-navigation.dl-menuwrapper button.dl-active, #gdlr-responsive-navigation.dl-menuwrapper ul {
+      background-color: #00313B;
+      width: 100%;
+      margin: 0;
+  }
+
+  #gdlr-responsive-navigation .dl-trigger {
+      position: absolute;
+      right: 10px;
+      top: 13px;
+    }
+
+  .dl-trigger.dl-active, .dl-trigger:hover {
+      width: 43px !important;
+  }
+
+  @media only screen and (min-width:768px) and (max-width:959px) {
+    body .container {
+      max-width: 100%;
+    }
+    .gdlr-navigation-wrapper.gdlr-style-1 {
+      width: 100%;
+    }
+    #gdlr-nav-search-form-button {
+      float: right;
+      margin: 1em;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+  	body .container{ max-width: 100%!important;}
+  }
+
+  /*Nav menu styling END */
+
+  .gdlr-button, input[type="button"], input[type="submit"] {
+      margin: 0!important;
+      border-radius: 6px;
+  }
+
+  @media (max-width:768px) {
+  	.gdlr-item.gdlr-content-item {
+      padding: 0.5em;
+  }
+  }
+
+  /*Logo styling*/
+
+  .gdlr-logo {
+      margin: 1.8em;
+  }
+
+  @media only screen and (max-width: 1214px) {
+  .gdlr-header-style-1 .gdlr-logo{ float: none; margin: 35px auto 10px; }
+  }
+
+  /*News item styling*/
+  #news {padding:2em}
+  @media screen (max-width:768px) {
+    #news {padding:0.5em;}
+  }
+
+  /*
+
+  #homevalues {
+      background-color: #FCD256;
+      margin: 0;
+  }
+
+  #homevideo {
+      margin:0;
+  }
+
+  @media only screen and (min-width:768px) {
+    #homevalues, #homevideo {
+      height:372px;
+    }
+
+  }
+  @media only screen and (mac-width:767px) {
+    #homevalues, #homevideo {
+      width:100%;
+    }
+
+  }
+  */
+  .section-container {
+    padding-top:0;
+  }
+
+  .yt-video {
+      width: 48%;
+      position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden!important;
+  float:right;
+  }
+
+  .yt-video iframe, .yt-video embed {
+    position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  }
+
+  .values {
+    max-width:44%;
+    padding:2em;
+    float:left;
+  }
+
+  #video-values {
+      background-color: #FCD256;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      max-height: 372px;
+    }
+
+    @media screen and (max-width:986px) {
+      .yt-video, .values, #video-values {max-height:100%;max-width:100%;}
+      .yt-video {width:100%;}
+      .yt-video iframe, .yt-video embed {height:100%;}
+      .values {padding:0.5em;}
+    }
